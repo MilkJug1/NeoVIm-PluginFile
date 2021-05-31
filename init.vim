@@ -12,12 +12,7 @@ call plug#end()
 syntax enable
 set background=dark
 colorscheme solarized`
-
-if has('gui_running')
-        set background=dark
-else
-        set background=light
-endif
+let g:solarized_termcolors=256
 
 
 let g:arduino_use_slime = 1
