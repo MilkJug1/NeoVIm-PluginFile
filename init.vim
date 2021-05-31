@@ -1,9 +1,7 @@
-call plug#start()
-{
+call plug#begin()
 
 
 
 
 
-}
 call plug#end()
